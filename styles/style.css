@@ -1,0 +1,82 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-link::after {
+  background-image: url("../images/arrow.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
+  padding-right: 20px;
+  content: "";
+}
+.our-work-section {
+  background-image: url("../images/deniz-demirci-0UeHGWsFyHM-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.navigation {
+  height: calc(100vh - 75px);
+}
+
+.unscroll {
+  overflow: hidden;
+}
+.hover-nav-link {
+  color: #101828;
+}
+.hover-nav-items:hover .hover-nav-link {
+  color: #794aff;
+}
+.link-after::after {
+  padding-block: 4px;
+  padding-inline: 6px;
+  color: #794aff;
+  background-color: #794aff1f;
+}
+.header-link {
+  width: calc(90% - 20px);
+  color: #fff;
+  background-color: #794aff;
+}
+.hamburger {
+  background-image: url("../images/hamburger.svg");
+}
+.cross {
+  background-image: url("../images/cross.svg");
+}
+.faq-summary::after {
+  background-image: url("../images/plus.svg");
+}
+.faq-details[open] .faq-summary::after {
+  background-image: url("../images/minus.svg");
+}
+.faq-summary:hover .faq-subtitle {
+  color: #794aff;
+}
+
+.input-wrapper {
+  box-shadow: 0px 12px 16px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* @media only screen and (min-width: 1200px) {
+   .header-wrapper {
+      display: flex;
+   }
+   .header-link {
+      width: 216px;
+      padding: clamp(14px, 0.8em, 18px) clamp(18px, 1.8em, 36px);
+      background-color: #794aff;
+   }
+   .navigation {
+      position: static;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-inline: 0;
+      height: auto;
+   }
+} */
